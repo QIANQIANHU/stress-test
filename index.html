@@ -9,48 +9,45 @@
   </head>
   <div class="container">
       <div class="jumbotron">
-        <h2>Transportation Survey</h2>
+        <h2>Stress Test</h2>
       </div>
       <form id="transportation_survey">
         <div class="form-group">
           <p>Please select the following stressors that apply to you:</p>
-          <input type="checkbox" name="stressor-one" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="stressor-one" value="car">Driving a car.<br>
-          <input type="checkbox" name="stressor-one" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="stressor-one" value="walk">Walking.<br>
-          <input type="checkbox" name="stressor-one" value="bus">Riding the bus.<br>
+          <input type="checkbox" name="stressor-one" value=1>Drink 2 or more cups of coffee per day.<br>
+          <input type="checkbox" name="stressor-one" value=2>Regularly eat processed/fast food.<br>
+          <input type="checkbox" name="stressor-one" value=3>Consume alcoholic beverages daily.<br>
+          <input type="checkbox" name="stressor-one" value=4>Smoke tobacco.<br>
+          <input type="checkbox" name="stressor-one" value=5>Use illegal drugs/abuses prescription medication.<br>
         </div>
         <div class="form-group">
           <p>Please select the following stressors that apply to you:</p>
-          <input type="checkbox" name="stressor-two" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="stressor-two" value="car">Driving a car.<br>
-          <input type="checkbox" name="stressor-two" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="stressor-two" value="walk">Walking.<br>
-          <input type="checkbox" name="stressor-two" value="bus">Riding the bus.<br>
+          <input type="checkbox" name="stressor-two" value=1>Do not take breaks throughout work day.<br>
+          <input type="checkbox" name="stressor-two" value=2>Do not stay hydrated.<br>
+          <input type="checkbox" name="stressor-two" value=3>Do not exercise regularly.<br>
+          <input type="checkbox" name="stressor-two" value=4>Do not sleep at least 7 hours per day.<br>
+          <input type="checkbox" name="stressor-two" value=5>Work more than 60 hours per week regularly.<br>
         </div>
         <div class="form-group">
           <p>Please select the following ways that you reduce stress:</p>
-          <input type="checkbox" name="stressor-two1" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="stressor-two1" value="car">Driving a car.<br>
-          <input type="checkbox" name="stressor-two1" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="stressor-two1" value="walk">Walking.<br>
-          <input type="checkbox" name="stressor-two" value="bus">Riding the bus.<br>
-          <input type="checkbox" name="stressor-two" value="train">Riding the train.<br>
-          <input type="checkbox" name="stressor-two" value="streetcar">Riding the streetcar.<br>
-          <input type="checkbox" name="stressor-two" value="taxi">Taking a taxi.<br>
-          <input type="checkbox" name="stressor-two" value="rideshare">Using a rideshare service like Lyft or Uber.<br>
-          <input type="checkbox" name="stressor-two" value="skateboard">Skateboarding.<br>
-          <input type="checkbox" name="stressor-two" value="rollerblade">Rollerblading.<br>
+          <input type="checkbox" name="stress-reduce" value=-1>Meditation.<br>
+          <input type="checkbox" name="stress-reduce" value=-2>Eat healthy food regularly.<br>
+          <input type="checkbox" name="stress-reduce" value=-3>Stay hydrated.<br>
+          <input type="checkbox" name="stress-reduce" value=-4>Exercise regularly.<br>
+          <input type="checkbox" name="stress-reduce" value=-5>Sleep at least 7 hours per day.<br>
           </div>
        <button type="submit">Submit Survey</button>
       </form>
-      <span id="work-responses">
+      <div id= "notStressed">
         <p><b>You use the following methods of transportation to travel to work or school:</b></p>
-      </span>
+      </div>
       <br>
-      <span id="fun-responses">
+      <div id="moderateStressed">
         <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
-      </span>
+      </div>
+      <div id="veryStressed">
+        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      </div>
     </div>
   </body>
 </html>
