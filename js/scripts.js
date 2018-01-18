@@ -30,5 +30,10 @@ $(document).ready(function() {
       } else {
         $("#veryStressed").show();
       }
+
+      // var reset = function() {
+      //   flavorsArray = [];
+      //   $("#notStressed").empty();
+      // };
   });
 });
